@@ -353,7 +353,7 @@ undefined、number、string、null、boolean+object ES6新增Symbol
   
 3、点击劫持
 
-###6、性能问题
+### 6、性能问题
 1、图片优化
 
 2、节流
@@ -417,3 +417,18 @@ undefined、number、string、null、boolean+object ES6新增Symbol
             }  
 
 4、webpack如何优化性能
+    参考: [三十分钟掌握Webpack性能优化](https://juejin.im/post/5b652b036fb9a04fa01d616b)
+- 优化构建速度
+  
+      1、缩小文件的搜索范围
+      2、使用DllPlugin减少基础模块编译次数
+      3、使用HappyPack开启多进程Loader转换
+      4、使用ParallelUglifyPlugin开启多进程压缩JS文件
+      5、压缩CSS：css-loader?minimize、PurifyCSSPlugi
+      6、多页面应用提取页面间公共代码，以利用缓存
+      7、分割代码以按需加载
+
+5、 配置多入口（这个实际开发中，遇到的概率还蛮大，先占个坑）
+
+6、compiler 钩子（之所以单独列出来，是因为写插件的时候，很有用的）
+参考:[compiler 钩子](https://www.webpackjs.com/api/compiler-hooks/)
