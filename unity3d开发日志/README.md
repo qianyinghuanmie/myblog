@@ -12,7 +12,7 @@
 笔者只拥有一些前端开发知识， 心血来潮想自己制作个独立游戏，特此记录。
 
 1、先是资料的收集，查看了下游戏开发的网上公开的资源，比起程序开发还是少了很多，第一步先打算把免费的资源全部学完。
-- [siki学院的内容](https://github.com/qianyinghuanmie/myblog/unity3d开发日志/sikia.md)
+- [siki学院的内容](https://github.com/qianyinghuanmie/myblog/blob/master/unity3d%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/sikia.md)
 - [擅码网](http://www.mkcode.net/html/unity_jc/)
 - [unity3d 教程](https://www.w3cschool.cn/unity3d_jc/)
 siki学院因为现在在学，就把他们资源先列出来了。 
